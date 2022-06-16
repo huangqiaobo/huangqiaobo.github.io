@@ -1,0 +1,37 @@
+<svg width="30.000000" height="30.000000" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<g clip-path="url(#clip1_31)">
+		<rect width="30.000000" height="30.000000" fill="#6059DC"/>
+		<g clip-path="url(#clip1_21)">
+			<circle cx="15.000000" cy="12.000000" r="8.500000" stroke="#FFFFFF"/>
+			<circle cx="15.000000" cy="12.000000" r="6.500000" stroke="#FFFFFF"/>
+			<rect x="2.999998" y="24.020813" width="17.000000" height="17.000000" transform="rotate(-45 2.999998 24.020813)" fill="#6059DC"/>
+		</g>
+		<g clip-path="url(#clip2_1)">
+			<path d="M13.0001 12L16.0001 12L16.0001 24L13.0001 24L13.0001 12Z" fill="#FFFFFF"/>
+			<path d="M13 19.8284L15.8285 17L18.3033 19.4749C18.4986 19.6701 18.4986 19.9867 18.3033 20.182L15.8285 22.6569L13 19.8284Z" fill-rule="evenodd" fill="#FFFFFF"/>
+			<path d="M12 23.8284L14.8284 21L17.3033 23.4749C17.4986 23.6701 17.4986 23.9867 17.3033 24.182L15.182 26.3033C14.9867 26.4986 14.6701 26.4986 14.4749 26.3033L12 23.8284Z" fill-rule="evenodd" fill="#FFFFFF"/>
+		</g>
+		<g clip-path="url(#clip1_25)">
+			<circle cx="15.000000" cy="12.000000" r="5.000000" fill="#6059DC"/>
+			<circle cx="15.000000" cy="12.000000" r="4.250000" stroke="#FFFFFF" stroke-width="1.500000"/>
+			<circle cx="15.000000" cy="11.000000" r="1.000000" fill="#FFFFFF"/>
+		</g>
+	</g>
+	<defs>
+		<clipPath id="clip1_21">
+			<rect width="18.000000" height="18.000000" transform="translate(6.000000 3.000000)" fill="white"/>
+		</clipPath>
+		<clipPath id="clip2_1">
+			<rect width="6.000000" height="15.000000" transform="translate(13.000000 12.000000)" fill="white"/>
+		</clipPath>
+		<clipPath id="clip1_25">
+			<rect width="10.000000" height="10.000000" transform="translate(10.000000 7.000000)" fill="white"/>
+		</clipPath>
+		<clipPath id="clip1_31">
+			<rect width="30.000000" height="30.000000" fill="white"/>
+		</clipPath>
+	</defs>
+</svg>
