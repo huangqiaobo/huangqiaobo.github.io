@@ -7,10 +7,17 @@ function myFunction()
 {
   window.open("./")
 }
+function changeHref()
+{
+  window.location.href="./";
+}
 </script>
 </head>
 <body>
 <h1>webview test</h1>
 <button type="button" onclick="myFunction()">window.open</button>
+<button type="button" onclick="changeHref()">修改href</button>
+<a href="./">a标签跳转-无_blank</a>
+<a href="./" target="_blank">a标签跳转-带_blank</a>
 </body>
 </html>
