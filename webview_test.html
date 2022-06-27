@@ -11,6 +11,10 @@ function changeHref()
 {
   window.location.href="./";
 }
+function close()
+{
+  window.close()
+}
 </script>
 </head>
 <body>
@@ -19,5 +23,6 @@ function changeHref()
 <button type="button" onclick="changeHref()">修改href</button>
 <a href="./">a标签跳转-无_blank</a>
 <a href="./" target="_blank">a标签跳转-带_blank</a>
+<button type="button" onclick="close()"> window.close</button>
 </body>
 </html>
