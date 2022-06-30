@@ -26,6 +26,13 @@ function promptTest()
   console.log(window.testNumber)
   window.prompt(`${window.testNumber}`)
 }
+function autoRunPromptTest()
+{
+  for (var i = 0; i<10000; i ++) {
+    console.log(i)
+    window.prompt(`${i}`)
+  }
+}
 </script>
 </head>
 <body>
@@ -37,6 +44,7 @@ function promptTest()
 <button type="button" onclick="closePage()">window.close</button>
 <input id="password-text-field" type="password" autocomplete="current-password"/>
 <button type="button" onclick="promptTest()">promptTest</button>
+<button type="button" onclick="autoRunPromptTest()">autoRunPromptTest</button>
 
 </body>
 </html>
