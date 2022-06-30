@@ -16,6 +16,16 @@ function closePage()
 {
   window.close()
 }
+function promptTest()
+{
+  if (!window.testNumber) {
+    window.testNumber = 1
+  } else {
+    window.testNumber += 1
+  }
+  console.log(window.testNumber)
+  window.prompt(`${window.testNumber}`)
+}
 </script>
 </head>
 <body>
@@ -26,5 +36,7 @@ function closePage()
 <a href="./webview_test.html" target="_blank">a标签跳转-带_blank</a>
 <button type="button" onclick="closePage()">window.close</button>
 <input id="password-text-field" type="password" autocomplete="current-password"/>
+<button type="button" onclick="promptTest()">promptTest</button>
+
 </body>
 </html>
