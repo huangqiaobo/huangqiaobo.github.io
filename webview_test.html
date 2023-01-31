@@ -6,7 +6,11 @@
 <script>
 function myFunction()
 {
-  window.open("./webview_test.html")
+  window.open("./webview_test.html", "_blank")
+}
+function openSelf()
+{
+  window.open("./webview_test.html", "_self")
 }
 function changeHref()
 {
@@ -37,10 +41,12 @@ function autoRunPromptTest()
 </head>
 <body>
 <h1>webview test</h1>
-<button type="button" onclick="myFunction()">window.open</button>
+<button type="button" onclick="myFunction()">window.open _blank</button>
+<button type="button" onclick="openSelf()">window.open _self</button>
 <button type="button" onclick="changeHref()">修改href</button>
 <a href="./">a标签跳转-无_blank</a>
 <a href="./webview_test.html" target="_blank">a标签跳转-带_blank</a>
+<a href="./webview_test.html" target="_self">a标签跳转-带_self</a>
 <button type="button" onclick="closePage()">window.close</button>
 <input id="password-text-field" type="password" autocomplete="current-password"/>
 <button type="button" onclick="promptTest()">promptTest</button>
