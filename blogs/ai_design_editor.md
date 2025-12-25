@@ -4,4 +4,4 @@
 
 ## 架构图
 
-![](assets/ai_design_editor.svg)
+![](assets/ai_design_editor.png)
